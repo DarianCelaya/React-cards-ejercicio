@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.figura {
+	object-fit: cover;
+	clip-path: polygon(0% 100%, 0% 62%, 82% 46%, 95% 51%, 100% 59%, 100% 100%);
+	width: auto;
+	height: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	padding: 3%;
+
+	background: linear-gradient(
+		147.89deg,
+		#d7516d 20.88%,
+		#ae5898 56.24%,
+		#6d5cca 78.21%
+	);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.figura2 {
+	object-fit: cover;
+	clip-path: polygon(0% 100%, 0% 62%, 82% 46%, 95% 51%, 100% 59%, 100% 100%);
+	width: auto;
+	height: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	padding: 3%;
+
+	background: linear-gradient(
+		147.89deg,
+		#51bfd7 20.88%,
+		#586bae 56.24%,
+		#523ec0 78.21%
+	);
+}
+
+.figura3 {
+	object-fit: cover;
+	clip-path: polygon(0% 100%, 0% 62%, 82% 46%, 95% 51%, 100% 59%, 100% 100%);
+	width: auto;
+	height: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	padding: 3%;
+
+	background: linear-gradient(
+		144.09deg,
+		#30d1a5 26.05%,
+		#179788 47.3%,
+		#31496b 80.6%
+	);
+}
+
+.figura4 {
+	object-fit: cover;
+	clip-path: polygon(0% 100%, 0% 62%, 82% 46%, 95% 51%, 100% 59%, 100% 100%);
+	width: auto;
+	height: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	padding: 3%;
+
+	background: linear-gradient(
+		147.89deg,
+		#d7d251 20.88%,
+		#cea53a 51.64%,
+		#c66c19 78.21%
+	);
+}
+
+.bg-img {
+	background: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/10/league-legends-2113595.jpg");
+	background-size: cover;
+}
+
+.logo {
+	background-image: url("https://www.multifreakshop.com/wp-content/uploads/2018/02/unnamed.jpg");
+	width: 6rem;
+	height: 6rem;
+}
+
+.bg-img-2 {
+	background: url("https://i.blogs.es/7ea121/league-of-legends-viego/840_560.jpeg");
+	background-size: cover;
+}
+
+.bg-img-3 {
+	background: url("https://i2.wp.com/www.gameoverla.com/wp-content/uploads/2020/08/KDA_Ahri_Splash_Art_HD_Wallpaper_Background_Official_Art_Artwork_League_of_Legends_lol_1.0.jpg?fit=1200%2C800&ssl=1");
+	background-size: cover;
+}
+.bg-img-4 {
+	background: url("https://pbs.twimg.com/media/DHNizrSXoAEccYp.jpg");
+	background-size: cover;
 }
